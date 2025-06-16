@@ -1,0 +1,207 @@
+.navbar {
+  height: 5rem;
+  background-color: #020715;
+  display: flex;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top:0;
+}
+
+.rnp_logo {
+  background-image: url(../images/RNPLOGO.svg.png);
+  width: 130px;
+  height: 27.28px;
+  top: 26.44px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 15px;
+}
+
+.rnp_logo:hover{
+  cursor: pointer;
+}
+.contact_info {
+  width: max-content;
+  height: 80px;
+  display: flex;
+  gap: 30px;
+  visibility: visible;
+  position: absolute;
+  right: 10px;
+}
+
+.contact_info_content:hover{
+  cursor: pointer;
+  color: #8800FF;
+  ;
+}
+
+.contact_info_content {
+  display: flex;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  height: 24px;
+  top: 27.44px;
+  position: relative;
+  background-color: black;
+}
+.contact_info_content:hover{
+  cursor: pointer;
+   
+  
+}
+.contact_info_content p:hover{
+  color: #8800ff;    
+}
+
+.contact_info_content p {
+  width: max-content;
+}
+
+.contact_info_content p a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact_info_content p:hover{
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.contact_info_content p a:hover{
+  cursor: pointer;
+  color: #8800FF;
+}
+
+.contact_info_button {
+  background: linear-gradient(94.33deg, #4050f2 0%, #451db8 100%);
+  width: 137.88px;
+  height: 50.8px;
+  top: 14.44px;
+  border-radius: 63px;
+  position: relative;
+  border: 0px solid transparent;
+  color: #ffffff;
+}
+
+.contact_info_button:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .contact_info_content p {
+    font-size: 0.7em;
+  }
+  .rnp_logo{
+    width: 100px;
+  }
+  /* .contact_info_content{
+    display: none;
+  } */
+  .contact_info_button{
+    height: 40px;
+    top: 20px;
+    width: 107.88px;
+  }
+  /* .left-section h2 {
+    font-size: 1.2em;
+  }
+
+  .left-section p {
+    font-size: 0.9em;
+  }
+
+  .response-time {
+    font-size: 0.9em;
+  }
+
+  .right-section img {
+    width: 100%;
+  } */
+}
+
+
+/* @media screen and (min-width: 1440px) {
+  .navbar{
+    gap: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .navbar{
+    gap: 45%;
+  }
+} */
+
+
+/* @media screen and (max-width: 320px) {
+
+  .navbar {
+    width: 100%;
+    gap: 0px;
+    height: 3rem;
+  }
+  .dropDown {
+    display: block;
+    position: relative;
+    left: 200px;
+    top: 12px;
+  }
+  .contact_info{
+    display: none;
+  }
+  .rnp_logo {
+    width: 80px;
+    height: 30px;
+    position:relative;
+    top: 18px;
+    left: 5px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+  .navbar {
+    width: 100%;
+    gap: 0px;
+    height: 3rem;
+  }
+  .dropDown {
+    display: block;
+    position: relative;
+    left: 200px;
+    top: 12px;
+  }
+  .contact_info{
+    display: none;
+  }
+  .rnp_logo {
+    width: 80px;
+    height: 30px;
+    position:relative;
+    top: 18px;
+    left: 5px;
+  }
+}
+*/
+/* @media screen and (min-width: 376px) and (max-width: 425px) {
+
+  .navbar {
+    width: 100%;
+    gap: 30px;
+    height: 3rem;
+  }
+
+  .rnp_logo{
+    height: 17px;
+    width: 80px;
+    left: 5px;
+    top: 15px;
+  }
+}  */
